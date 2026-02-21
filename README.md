@@ -12,5 +12,5 @@ Este repositório tem como objetivo reunir exercícios e exemplos práticos para
 - Possíveis exemplos em **JavaScript** para interação e dinamismo.
 
 # Como Executar ou visualizar os arquivos:
-Faça o download ou clone este repositório:
+Faça o download ou clone deste repositório:
 https://github.com/gabriellamarreiros/frontend.git
