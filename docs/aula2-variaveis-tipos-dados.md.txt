@@ -1,0 +1,208 @@
+```markdown
+# Variáveis e Tipos de Dados na Lógica de Programação
+
+## 1. Introdução
+
+Na lógica de programação, **variáveis** e **tipos de dados** são conceitos fundamentais para a construção de algoritmos. Todo programa precisa armazenar, manipular e processar informações — e é exatamente para isso que esses elementos existem.
+
+---
+
+## 2. O que são Variáveis?
+
+Uma **variável** é um espaço na memória do computador utilizado para armazenar um valor. Esse valor pode ser alterado durante a execução do programa.
+
+Podemos pensar em uma variável como:
+
+> Uma caixa identificada por um nome, onde guardamos um dado.
+
+### Exemplo conceitual:
+
+```
+
+idade ← 25
+
+```
+
+Nesse exemplo:
+
+- `idade` é o nome da variável
+- `25` é o valor armazenado
+
+Se depois fizermos:
+
+```
+
+idade ← 30
+
+```
+
+O valor armazenado será atualizado para `30`.
+
+---
+
+## 3. Regras para Nomear Variáveis
+
+Embora as regras variem entre linguagens, geralmente:
+
+- Devem começar com uma letra
+- Não podem conter espaços
+- Não podem usar palavras reservadas
+- Podem conter números (não no início)
+- Podem usar underscore `_`
+
+### Exemplos válidos:
+
+- `nome`
+- `idadeAluno`
+- `total_geral`
+
+### Exemplos inválidos:
+
+- `2valor`
+- `nome completo`
+- `if`
+
+---
+
+## 4. O que são Tipos de Dados?
+
+O **tipo de dado** define qual tipo de informação uma variável pode armazenar.  
+
+Isso é importante porque o computador precisa saber como tratar cada valor internamente.
+
+---
+
+## 5. Principais Tipos de Dados
+
+### 5.1 Inteiro (Integer)
+
+Armazena números sem casas decimais.
+
+```
+
+quantidade ← 10
+ano ← 2025
+
+```
+
+---
+
+### 5.2 Real (Float / Decimal)
+
+Armazena números com casas decimais.
+
+```
+
+altura ← 1.75
+preco ← 19.99
+
+```
+
+---
+
+### 5.3 Caractere (Char)
+
+Armazena um único caractere.
+
+```
+
+letra ← 'A'
+
+```
+
+---
+
+### 5.4 Cadeia de Caracteres (String)
+
+Armazena textos.
+
+```
+
+nome ← "Maria"
+mensagem ← "Olá, mundo!"
+
+```
+
+---
+
+### 5.5 Lógico (Booleano)
+
+Armazena apenas dois valores possíveis:
+
+- `verdadeiro`
+- `falso`
+
+```
+
+aprovado ← verdadeiro
+
+```
+
+Esse tipo é muito utilizado em estruturas de decisão, como condições (`se`, `senão`).
+
+---
+
+## 6. Importância dos Tipos de Dados
+
+Os tipos de dados:
+
+- Definem quais operações podem ser realizadas
+- Ajudam a evitar erros
+- Organizam melhor as informações
+- Tornam o algoritmo mais claro
+
+Exemplo de erro lógico:
+
+```
+
+nome ← "João"
+idade ← 20
+
+resultado ← nome + idade
+
+```
+
+Na maioria das linguagens, não é possível somar texto com número diretamente.
+
+---
+
+## 7. Tipagem Estática e Dinâmica
+
+### 7.1 Tipagem Estática
+
+O tipo da variável é declarado antes do uso e não pode mudar.
+
+Exemplo conceitual:
+
+```
+
+inteiro idade
+idade ← 25
+
+```
+
+---
+
+### 7.2 Tipagem Dinâmica
+
+O tipo é definido automaticamente de acordo com o valor atribuído.
+
+```
+
+idade ← 25
+nome ← "Carlos"
+
+```
+
+---
+
+## 8. Conclusão
+
+Variáveis e tipos de dados são a base da lógica de programação.
+
+- Variáveis armazenam informações.
+- Tipos de dados definem o tipo de informação armazenada.
+- Juntos, permitem que algoritmos manipulem dados de forma organizada e eficiente.
+
+Dominar esses conceitos é essencial para aprender qualquer linguagem de programação.
+```
