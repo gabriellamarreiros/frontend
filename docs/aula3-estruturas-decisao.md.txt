@@ -1,0 +1,221 @@
+````markdown
+# Estruturas de Decisão na Lógica de Programação
+
+## 1. Introdução
+
+As **estruturas de decisão** permitem que um algoritmo escolha diferentes caminhos de execução com base em uma condição.
+
+Elas são fundamentais para que um programa possa:
+
+- Tomar decisões
+- Reagir a diferentes entradas
+- Executar ações específicas dependendo de uma situação
+
+Sem estruturas de decisão, um algoritmo executaria sempre a mesma sequência de passos, sem considerar variações nos dados.
+
+---
+
+## 2. Conceito de Condição
+
+Uma **condição** é uma expressão que pode resultar em apenas dois valores:
+
+- Verdadeiro
+- Falso
+
+Exemplo de condição:
+
+```
+idade >= 18
+```
+
+Essa expressão será verdadeira ou falsa, dependendo do valor da variável `idade`.
+
+---
+
+## 3. Estrutura SE (Condicional Simples)
+
+A estrutura `SE` executa um bloco de instruções apenas se a condição for verdadeira.
+
+### Sintaxe
+
+```
+se condição então
+    instruções
+fim_se
+```
+
+### Exemplo
+
+```
+idade ← 20
+
+se idade >= 18 então
+    escreva("Maior de idade")
+fim_se
+```
+
+Se a condição for falsa, o bloco não será executado.
+
+---
+
+## 4. Estrutura SE / SENÃO (Condicional Composta)
+
+Permite definir um bloco para o caso verdadeiro e outro para o caso falso.
+
+### Sintaxe
+
+```
+se condição então
+    instruções_verdadeiro
+senão
+    instruções_falso
+fim_se
+```
+
+### Exemplo
+
+```
+nota ← 6
+
+se nota >= 7 então
+    escreva("Aprovado")
+senão
+    escreva("Reprovado")
+fim_se
+```
+
+---
+
+## 5. Estrutura SENÃO SE (Condicional Encadeada)
+
+Utilizada quando existem múltiplas condições possíveis.
+
+### Sintaxe
+
+```
+se condição1 então
+    instruções1
+senão se condição2 então
+    instruções2
+senão
+    instruções_padrao
+fim_se
+```
+
+### Exemplo
+
+```
+nota ← 8
+
+se nota >= 9 então
+    escreva("Excelente")
+senão se nota >= 7 então
+    escreva("Bom")
+senão se nota >= 5 então
+    escreva("Regular")
+senão
+    escreva("Insuficiente")
+fim_se
+```
+
+---
+
+## 6. Estrutura CASO (Escolha Múltipla)
+
+Usada quando há várias comparações baseadas no mesmo valor.
+
+### Sintaxe
+
+```
+caso variável
+    caso valor1:
+        instruções
+    caso valor2:
+        instruções
+    caso contrário:
+        instruções
+fim_caso
+```
+
+### Exemplo
+
+```
+opcao ← 2
+
+caso opcao
+    caso 1:
+        escreva("Cadastrar")
+    caso 2:
+        escreva("Editar")
+    caso 3:
+        escreva("Excluir")
+    caso contrário:
+        escreva("Opção inválida")
+fim_caso
+```
+
+---
+
+## 7. Operadores Relacionais
+
+São usados para criar condições:
+
+- `==` igual
+- `!=` diferente
+- `>` maior que
+- `<` menor que
+- `>=` maior ou igual
+- `<=` menor ou igual
+
+Exemplo:
+
+```
+se idade >= 18 então
+```
+
+---
+
+## 8. Operadores Lógicos
+
+Permitem combinar múltiplas condições.
+
+- `E` (AND) → ambas devem ser verdadeiras
+- `OU` (OR) → pelo menos uma deve ser verdadeira
+- `NÃO` (NOT) → inverte o valor lógico
+
+### Exemplo
+
+```
+se idade >= 18 E possui_carteira = verdadeiro então
+    escreva("Pode dirigir")
+fim_se
+```
+
+---
+
+## 9. Importância das Estruturas de Decisão
+
+As estruturas de decisão:
+
+- Controlam o fluxo do algoritmo
+- Permitem criar programas dinâmicos
+- Tornam o sistema mais inteligente
+- Adaptam o comportamento às entradas do usuário
+
+Elas são essenciais para o desenvolvimento de qualquer aplicação.
+
+---
+
+## 10. Conclusão
+
+Estruturas de decisão permitem que um algoritmo faça escolhas com base em condições.
+
+Principais tipos:
+
+- SE (condicional simples)
+- SE / SENÃO (condicional composta)
+- SENÃO SE (condicional encadeada)
+- CASO (escolha múltipla)
+
+Dominar esse conceito é fundamental para evoluir na lógica de programação.
+````
