@@ -1,4 +1,3 @@
-```markdown
 # Variáveis e Tipos de Dados na Lógica de Programação
 
 ## 1. Introdução
@@ -206,3 +205,4 @@ Variáveis e tipos de dados são a base da lógica de programação.
 
 Dominar esses conceitos é essencial para aprender qualquer linguagem de programação.
 ```
+
