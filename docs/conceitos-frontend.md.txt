@@ -1,4 +1,4 @@
-# 🌐 Guia de Desenvolvimento Web Frontend
+# Guia de Desenvolvimento Web Frontend
 
 O **desenvolvimento web frontend** é a área responsável por criar a interface visual e interativa de um site ou aplicação web — tudo aquilo que o usuário vê e com o que interage diretamente.
 
@@ -64,3 +64,4 @@ Frontend é a **camada de apresentação** de um sistema. Ele transforma dados e
 ---
 
 💡 *Dica*: O frontend é um campo em constante evolução. Praticar e experimentar novas ferramentas é essencial para se destacar.
+
