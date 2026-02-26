@@ -1,0 +1,213 @@
+# Estruturas de Repetição na Lógica de Programação
+
+## 1. Introdução
+
+As **estruturas de repetição** (também chamadas de laços ou loops) permitem que um conjunto de instruções seja executado várias vezes, de forma controlada.
+
+Elas são utilizadas quando precisamos:
+
+- Repetir uma ação várias vezes
+- Percorrer listas ou conjuntos de dados
+- Executar um bloco até que uma condição seja satisfeita
+
+Sem estruturas de repetição, seria necessário escrever a mesma instrução diversas vezes, tornando o algoritmo ineficiente e difícil de manter.
+
+---
+
+## 2. Conceito de Laço de Repetição
+
+Um laço de repetição executa um bloco de código:
+
+- Um número determinado de vezes  
+ou
+- Enquanto uma condição for verdadeira
+
+Cada execução do bloco é chamada de **iteração**.
+
+---
+
+## 3. Estrutura ENQUANTO (While)
+
+A estrutura `ENQUANTO` executa o bloco de instruções **enquanto a condição for verdadeira**.
+
+### Sintaxe
+
+```
+enquanto condição faça
+    instruções
+fim_enquanto
+```
+
+### Exemplo
+
+```
+contador ← 1
+
+enquanto contador <= 5 faça
+    escreva(contador)
+    contador ← contador + 1
+fim_enquanto
+```
+
+Nesse exemplo, o programa exibirá os números de 1 a 5.
+
+---
+
+## 4. Estrutura FAÇA ENQUANTO (Do While)
+
+Executa o bloco **pelo menos uma vez**, pois a verificação ocorre ao final.
+
+### Sintaxe
+
+```
+faça
+    instruções
+enquanto condição
+```
+
+### Exemplo
+
+```
+numero ← 1
+
+faça
+    escreva(numero)
+    numero ← numero + 1
+enquanto numero <= 3
+```
+
+O bloco será executado antes da verificação da condição.
+
+---
+
+## 5. Estrutura PARA (For)
+
+A estrutura `PARA` é utilizada quando sabemos previamente o número de repetições.
+
+### Sintaxe
+
+```
+para variável de início até fim faça
+    instruções
+fim_para
+```
+
+### Exemplo
+
+```
+para i de 1 até 5 faça
+    escreva(i)
+fim_para
+```
+
+Esse exemplo também exibirá os números de 1 a 5.
+
+---
+
+## 6. Controle de Incremento
+
+Na estrutura `PARA`, é possível definir o passo (incremento ou decremento).
+
+### Exemplo com incremento de 2
+
+```
+para i de 0 até 10 passo 2 faça
+    escreva(i)
+fim_para
+```
+
+### Exemplo com decremento
+
+```
+para i de 5 até 1 passo -1 faça
+    escreva(i)
+fim_para
+```
+
+---
+
+## 7. Interrupção de Laços
+
+Algumas linguagens permitem interromper um laço antes do término natural.
+
+Comando comum:
+
+- `pare` ou `break`
+
+### Exemplo conceitual
+
+```
+para i de 1 até 10 faça
+    se i = 5 então
+        pare
+    fim_se
+    escreva(i)
+fim_para
+```
+
+O laço será interrompido quando `i` for igual a 5.
+
+---
+
+## 8. Cuidados com Estruturas de Repetição
+
+### 8.1 Evitar Loop Infinito
+
+Um loop infinito ocorre quando a condição nunca se torna falsa.
+
+Exemplo problemático:
+
+```
+contador ← 1
+
+enquanto contador > 0 faça
+    escreva(contador)
+fim_enquanto
+```
+
+Nesse caso, o valor de `contador` nunca é alterado.
+
+---
+
+### 8.2 Garantir Atualização da Variável de Controle
+
+Sempre garantir que:
+
+- A condição será modificada
+- O laço terá um ponto de parada
+
+---
+
+## 9. Quando Utilizar Cada Estrutura
+
+- **ENQUANTO** → Quando não sabemos exatamente quantas repetições serão necessárias.
+- **FAÇA ENQUANTO** → Quando o bloco precisa executar pelo menos uma vez.
+- **PARA** → Quando sabemos exatamente o número de repetições.
+
+---
+
+## 10. Importância das Estruturas de Repetição
+
+As estruturas de repetição permitem:
+
+- Automatizar tarefas repetitivas
+- Processar grandes volumes de dados
+- Percorrer listas e vetores
+- Tornar algoritmos mais eficientes
+
+Elas são fundamentais no desenvolvimento de qualquer sistema.
+
+---
+
+## 11. Conclusão
+
+Estruturas de repetição permitem que um bloco de instruções seja executado múltiplas vezes de maneira controlada.
+
+Principais tipos:
+
+- ENQUANTO
+- FAÇA ENQUANTO
+- PARA
+
+Dominar esses conceitos é essencial para construir algoritmos mais dinâmicos, eficientes e organizados.
+````
